@@ -6,7 +6,7 @@ Windows command line process killer written in Microsoft Macro Assembler (MASM)
 - Microsoft Visual C++ 2005 Express Edition => https://www.microsoft.com/en-us/download/details.aspx?id=804
 
 # Notes
-- Current MASM version apparently have a bug in ASCII versions of kernel32.lib entiries such as Process32First or Process32Next. Therefore, make sure that you use kernel32.lib from libraries that belong to Visual C++ not MASM.
+- Current MASM version apparently have a bug in ASCII versions of kernel32.lib entries such as Process32First or Process32Next. Therefore, make sure that you use kernel32.lib from libraries that belong to Visual C++ not MASM.
 
 # Assembly
     $ ml /c /coff /Cp killproc.asm
